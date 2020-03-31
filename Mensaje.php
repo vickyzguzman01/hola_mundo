@@ -1,11 +1,5 @@
-<html>
-  
-  <head>
-  <title>Mensaje</title>
-    
-    
-    <body>
-    
-    </body>
- 
-</html>
+<?php
+    $nombres = $_POST['nombres'];
+    $apellidos = $_POST['apellidos'];
+    echo "Hola Señor(a) ".$nombres." ".$apellidos." bienvenido(a) a la pagina de la empresa Hola Mundo";
+?>
